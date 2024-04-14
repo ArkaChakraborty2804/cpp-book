@@ -10,3 +10,8 @@ stack<ll> toposort_dfs(ll node, v2ll &adjList, vll &visited, stack<ll> &st){
 
 	return st;
 }
+
+/*if(st.size()==n){
+	cout<<"Graph detected"<<endl;
+}
+*/
